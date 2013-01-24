@@ -1,3 +1,17 @@
+(setq column-number-mode t)
+(setq line-number-mode t)
+
+(show-paren-mode t)
+(setq show-paren-style 'parentheses)
+(global-font-lock-mode t)
+(fset 'yes-or-no-p 'y-or-n-p)
+(setq x-select-enable-clipboard t)
+(setq default-fill-column 80)
+
+(tool-bar-mode nil)
+(menu-bar-mode nil)
+(scroll-bar-mode nil)
+
 (add-to-list 'load-path "~/.emacs.d")
 
 (add-to-list 'load-path "~/.emacs.d/evil")
