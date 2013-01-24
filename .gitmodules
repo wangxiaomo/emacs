@@ -13,3 +13,9 @@
 [submodule "popup"]
 	path = popup
 	url = https://github.com/auto-complete/popup-el
+[submodule "evil-nerd-commenter"]
+	path = evil-nerd-commenter
+	url = https://github.com/redguardtoo/evil-nerd-commenter
+[submodule "evil-leader"]
+	path = evil-leader
+	url = https://github.com/cofi/evil-leader
