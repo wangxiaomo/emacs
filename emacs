@@ -48,6 +48,11 @@
 (add-to-list 'load-path "~/.emacs.d/coffee-mode")
 (require 'coffee-mode)
 
+(add-to-list 'load-path "~/.emacs.d/color-theme")
+(require 'color-theme)
+(load "~/.emacs.d/molokai/color-theme-molokai.el")
+(color-theme-molokai)
+
 
 ;; 配置
 (setq column-number-mode t)

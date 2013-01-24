@@ -28,3 +28,9 @@
 [submodule "linum"]
 	path = linum
 	url = https://github.com/emacsmirror/linum
+[submodule "molokai"]
+	path = molokai
+	url = https://github.com/alloy-d/color-theme-molokai
+[submodule "color-theme"]
+	path = color-theme
+	url = https://github.com/wangxiaomo/color-theme
