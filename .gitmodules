@@ -4,3 +4,6 @@
 [submodule "emacs-powerline"]
 	path = emacs-powerline
 	url = https://github.com/jonathanchu/emacs-powerline
+[submodule "python-mode"]
+	path = python-mode
+	url = https://github.com/emacsmirror/python-mode
