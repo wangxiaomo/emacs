@@ -19,3 +19,6 @@
 [submodule "evil-leader"]
 	path = evil-leader
 	url = https://github.com/cofi/evil-leader
+[submodule "pylookup"]
+	path = pylookup
+	url = https://github.com/emacsmirror/pylookup

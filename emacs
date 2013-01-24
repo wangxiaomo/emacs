@@ -30,6 +30,16 @@
 (ac-config-default)
 (setq py-load-pymacs-p t)
 
+(setq pylookup-dir "~/.emacs.d/pylookup")
+(add-to-list 'load-path pylookup-dir)
+(eval-when-compile (require 'pylookup))
+(setq pylookup-program (concat pylookup-dir "~/.emacs.d/pylookup/pylookup.py"))
+(setq pylookup-db-file (concat pylookup-dir "~/.emacs.d/pylookup/pylookup.db"))
+(autoload 'pylookup-lookup "pylookup"
+    "Lookup SEARCH-TERM in the Python HTML indexes." t)
+(autoload 'pylookup-update "pylookup"
+    "Run pylookup-update and create the database at `pylookup-db-file`." t)
+
 
 ;; 配置
 (setq column-number-mode t)
