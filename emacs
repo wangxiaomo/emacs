@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d")
+
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)
 (evil-mode 1)
@@ -10,4 +12,10 @@
 (setq powerline-color2 "grey40")
 
 (add-to-list 'load-path "~/.emacs.d/python-mode")
+(add-to-list 'load-path "~/.emacs.d/popup")
+(add-to-list 'load-path "~/.emacs.d/auto-complete")
 (require 'python-mode)
+(require 'popup)
+(require 'auto-complete-config)
+(ac-config-default)
+(setq py-load-pymacs-p t)
