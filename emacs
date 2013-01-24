@@ -40,10 +40,17 @@
 (autoload 'pylookup-update "pylookup"
     "Run pylookup-update and create the database at `pylookup-db-file`." t)
 
+(add-to-list 'load-path "~/.emacs.d/linum")
+(require 'linum)
+(global-linum-mode t)
+(put 'upcase-region 'disable nil)
+
+(add-to-list 'load-path "~/.emacs.d/coffee-mode")
+(require 'coffee-mode)
+
 
 ;; 配置
 (setq column-number-mode t)
-(setq line-number-mode t)
 
 (show-paren-mode t)
 (setq show-paren-style 'parentheses)

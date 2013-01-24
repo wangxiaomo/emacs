@@ -22,3 +22,9 @@
 [submodule "pylookup"]
 	path = pylookup
 	url = https://github.com/emacsmirror/pylookup
+[submodule "coffee-mode"]
+	path = coffee-mode
+	url = https://github.com/emacsmirror/coffee-mode
+[submodule "linum"]
+	path = linum
+	url = https://github.com/emacsmirror/linum
