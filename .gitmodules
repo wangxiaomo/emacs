@@ -13,3 +13,18 @@
 [submodule "popup"]
 	path = popup
 	url = https://github.com/auto-complete/popup-el
+[submodule "evil-nerd-commenter"]
+	path = evil-nerd-commenter
+	url = https://github.com/redguardtoo/evil-nerd-commenter
+[submodule "evil-leader"]
+	path = evil-leader
+	url = https://github.com/cofi/evil-leader
+[submodule "pylookup"]
+	path = pylookup
+	url = https://github.com/emacsmirror/pylookup
+[submodule "coffee-mode"]
+	path = coffee-mode
+	url = https://github.com/emacsmirror/coffee-mode
+[submodule "linum"]
+	path = linum
+	url = https://github.com/emacsmirror/linum
